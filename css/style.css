@@ -81,6 +81,10 @@ li.nav-right{
     font-size: 12px;
 }
 
+#log-in:hover{
+    opacity: 0.5;
+}
+
 #get-hubspot-free{
     padding: 10px;
     border-radius: 5px;
@@ -88,7 +92,10 @@ li.nav-right{
     background-color: #ff7a59;
     color: white;
     font-size: 12px;
+}
 
+#get-hubspot-free:hover{
+    opacity: 0.5;
 }
 
 /*a.log-in{
@@ -132,3 +139,25 @@ li.menu{
     padding: 0px 16px;
     font-weight: bolder;
 }
+/*--------------Fine header bottom-------------*/
+/*--------------inizio promo---------------*/
+.promo{
+    background-color: #004466;
+    color: white;
+    height: 100%;
+}
+
+p.promo{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px 7px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+span:hover{
+    color: #3399ff;
+}
+/*--------------fine promo--------------*/
