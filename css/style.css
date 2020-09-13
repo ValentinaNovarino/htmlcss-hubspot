@@ -210,3 +210,125 @@ h1{
     font-size: 14px;
 }
 /*-------------fine introduction--------------*/
+/*-------------inizio services-------------*/
+.services{
+    background-color: #f5f8fa;
+    padding: 100px 0px 100px;
+}
+
+.first-box{
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #33475b;
+    margin-bottom: 18px;
+}
+
+#first-box{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #33475b;
+
+}
+
+.central-box{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    padding-bottom: 17px;
+    float: left;
+    background-color: white;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #33475b;
+    font-weight: 550;
+    margin: 11px 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+}
+
+p.services-box{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #33475b;
+    margin: 15px 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+hr{
+    border: 0.5px solid lightgrey;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+
+}
+
+h5{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #33475b;
+    margin-bottom: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+ul.services-box{
+    display: inline-block;
+}
+
+li.box-list{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #33475b;
+    margin-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+button.services-box{
+    width: 80%;
+    margin: 20px 30px;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    background-color: #ff7a59;
+    height: 50px;
+}
+
+button.services-box:hover{
+    opacity: 0.5;
+}
+
+a.services-box{
+    color: white;
+    line-height: 50px;
+    padding: 100% 40px;
+}
+
+.box{
+    width: 30%;
+    margin-top: 20px;
+    background-color: white;
+    float: left;
+}
+
+.box-left{
+    width: 30%;
+    margin-top: 20px;
+    padding-bottom: 17px;
+    background-color: white;
+    float: left;
+}
+/*--------------fine services--------------*/
