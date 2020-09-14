@@ -197,6 +197,7 @@ h1{
     background-color: #ff7a59;
     padding: 30px;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .get-hubspot-free-big:hover{
@@ -298,6 +299,14 @@ li.box-list{
     padding-right: 32px;
 }
 
+li.box-list:before{
+    content: "\f058";
+    font-family: "font awesome 5 free";
+    font-weight: bold;
+    color: #ff7a59;
+    margin-right: 10px;
+}
+
 button.services-box{
     width: 80%;
     margin: 20px 30px;
@@ -369,7 +378,15 @@ h6{
     font-size: 50px;
     color: white;
     text-align: center;
+    /*position: relative;*/
 }
+
+/*h6::after{
+    content: "+";
+    font-size: 15px;
+    color: white;
+    position: absolute;
+}*/
 
 p.comunity{
     font-family: sans-serif;
@@ -431,6 +448,7 @@ p.comunity{
     border-right: 1px solid white;
     float: left;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -447,6 +465,7 @@ p.comunity{
     border-right: 1px solid white;
     float: left;
     padding-bottom: 33px;
+    margin-bottom: 50px;
 }
 
 #languages{
@@ -459,6 +478,7 @@ p.comunity{
     border-right: 1px solid white;
     float: left;
     padding-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 #social{
@@ -470,6 +490,7 @@ p.comunity{
     width: 247px;
     float: left;
     padding-bottom: 38px;
+    margin-bottom: 50px;
 }
 
 #customers{
@@ -477,3 +498,94 @@ p.comunity{
     margin-left: 111px;
 }
 /*-------------fine comunity-------------*/
+/*-------------inizio clients--------------*/
+.clients{
+    background-color: white;
+}
+.text-wrapper{
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    float: left;
+}
+
+ .p-text-wrapper{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #33475b;
+ }
+
+.client-logo{
+    width: 60%;
+    padding-top: 100px;
+    float: left;
+}
+
+#logo-a{
+    height: 14px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#logo-b{
+    height: 14px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#logo-c{
+    height: 25px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#logo-d{
+    height: 45px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#logo-e{
+    height: 45px;
+    width: 110px;
+    margin-right: 20px;
+}
+
+#logo-f{
+    height: 20px;
+    width: 110px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+}
+
+#logo-g{
+    height: 45px;
+    width: 110px;
+    margin-right: 20px;
+}
+
+#logo-h{
+    height: 25px;
+    width: 110px;
+}
+
+.advertising{
+    background-color: white;
+}
+
+.photo{
+    width: 60%;
+    padding-top: 100px;
+    float: left;
+}
+
+#photo{
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+}
+/*--------------fine clients--------------*/
