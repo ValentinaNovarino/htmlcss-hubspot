@@ -142,7 +142,7 @@ li.menu{
 /*--------------Fine header bottom-------------*/
 /*--------------inizio promo---------------*/
 .promo{
-    background-color: #004466;
+    background-color: #33475b;
     color: white;
     height: 100%;
 }
@@ -331,6 +331,22 @@ a.services-box{
     margin-top: 20px;
     background-color: white;
     float: left;
+    position: relative;
+}
+
+.new{
+    height: 20px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: green;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 93%;
 }
 
 .box-left{
