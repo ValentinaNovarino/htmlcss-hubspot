@@ -34,20 +34,41 @@ header{
 
 
 }
-#language{
-    color: #33475b;
-}
 
-.language{
-    font-size: 17px;
+.dropdown{
+    position: relative;
+    display: inline-block;
     font-family: sans-serif;
-    border: none;
-    background-color: #f5f8fa;
-    margin-top: 30.5px;
+    font-size: 17px;
     color: #33475b;
-    margin-right: 32px;
 }
 
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+a.language{
+    height: 30px;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #33475b;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+}
+
+
+a.language:hover{
+    background-color: #f5f8fa;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    border: 1px solid #33475b;
+    background-color: white;
+}
 a{
     font-size: 15px;
     font-family: sans-serif;
@@ -57,6 +78,7 @@ a{
 a.contact-sales{
     color: #33475b;
     font-size: 17px;
+    margin-left: 30px;
 }
 
 ul.nav-right{
@@ -157,11 +179,11 @@ p.promo{
     padding: 20px 7px;
 }
 
-span{
+span#promo{
     text-decoration: underline;
 }
 
-span:hover{
+span#promo:hover{
     color: #3399ff;
 }
 /*--------------fine promo--------------*/
