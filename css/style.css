@@ -394,15 +394,16 @@ h6{
     font-size: 50px;
     color: white;
     text-align: center;
-    /*position: relative;*/
+    position: relative;
 }
 
-/*h6::after{
+h6::after{
     content: "+";
     font-size: 15px;
     color: white;
     position: absolute;
-}*/
+    top: 20px;
+}
 
 p.comunity{
     font-family: sans-serif;
