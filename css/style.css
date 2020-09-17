@@ -31,8 +31,6 @@ header{
     width: 100%;
     padding: 0px;
     margin: auto;
-
-
 }
 
 .dropdown{
@@ -134,7 +132,7 @@ li.nav-right{
 }*/
 /*-------------fine header top--------------*/
 /*-------------inizio header bottom--------------*/
-.header-bottom{
+.header-bottom {
     background-color: white;
     height: 80px;
     padding-top: 80px;
@@ -195,8 +193,37 @@ span#promo:hover{
     height: 100%;
     background-position: top right;
     background-size: 60rem;
-
+    position: relative;
 }
+p.chat{
+    padding: 20px 5px 5px;
+    position: fixed;
+    top: 250px;
+    right: 20px;
+    width: 200px;
+    border: 1px solid #33475b;
+    background-color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #33475b;
+}
+
+#robot{
+    position: absolute;
+    bottom: 60px;
+    left: 68px;
+    font-size: 50px;
+    color: red;
+}
+#chat{
+    position: fixed;
+    top: 350px;
+    right: 20px;
+    font-size: 50px;
+    color: #425B76;
+}
+
 
 .text{
     width: 35%;
@@ -402,7 +429,7 @@ a.services-box{
 }
 
 .box-a{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     float: left;
@@ -441,7 +468,7 @@ p.comunity{
 }
 
 .box-b{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     float: left;
@@ -457,7 +484,7 @@ p.comunity{
 }
 
 .box-c{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     float: left;
@@ -473,7 +500,7 @@ p.comunity{
 }
 
 .box-d{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-bottom: 1px solid white;
     float: left;
     padding-bottom: 30px;
@@ -488,7 +515,7 @@ p.comunity{
 }
 
 .box-e{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     float: left;
     padding-bottom: 30px;
@@ -505,7 +532,7 @@ p.comunity{
 }
 
 .box-f{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     float: left;
     padding-bottom: 33px;
@@ -518,7 +545,7 @@ p.comunity{
 }
 
 .box-g{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
     border-right: 1px solid white;
     float: left;
     padding-bottom: 34px;
@@ -531,7 +558,8 @@ p.comunity{
 }
 
 .box-h{
-    width: 247px;
+    width: calc((100% - 3px) / 4);
+
     float: left;
     padding-bottom: 38px;
     margin-bottom: 50px;
